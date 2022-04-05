@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>exo 1</title>
+
+</head>
+
+<body>
+<h1>  titre pricipal</h1>
+<p>un premier paragraphe</p>
+<button>cliquez moi </button>
+<div>
+  <p>unparagraphe dans une div</p>
+  <p>et un autre </p>
+  </div>
+
+
+
+<img id="test" onmouseover="this.src='1.png'" onmouseout="this.src= 'rickroll-rick.gif'" height="100px" width="100px" src="1.png">
+    <script type="text/javascript">
+
+let b1 = document.querySelector('button');
+let d1 = document.querySelector('div');
+
+
+b1.addEventListener('click',function(){alert('button cliqué')});
+d1.addEventListener('click', function(){this.style.backgroundColor='orange'});
+
+
+//d1.addEventListener('mouseover', function(){this.style.fontWeight='bold'});
+//d1.addEventListener('mouseover', function(){this.style.backgroundColor='white'});
+
+    </script>
+</body>
+
+</html>
