@@ -1,0 +1,5 @@
+<?php
+if(!isset($_COOKIE['toto']) || emty($_COOKIE['toto'])) setcookie('toto','jeanfredo',time()+60*1,null,null,false,true);
+else
+setcookie('toto','jeandoref',time()+60*1,null,null,false,true);
+?>
